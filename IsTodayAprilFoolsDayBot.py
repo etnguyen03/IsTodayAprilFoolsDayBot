@@ -47,8 +47,8 @@ while (Break == False):
 print (incrementDays)
 
 if (string == "April 01"):
-    post = subreddit.submit(title="Is it April Fools Day?", selftext="No.\n---\n^(Today is " + todoString + ". The next Friday the 13th is " + str(incrementDays) + " day\(s\) away. This message was posted by a bot. [source](https://github.com/etnguyen03/IsItFridayThe13thBot) >!APRIL FOOLS!<)")
+    post = subreddit.submit(title="Is it April Fools Day?", selftext="No.\n---\n^(Today is " + todoString + ". The next April Fools Day is " + str(incrementDays) + " day\(s\) away. This message was posted by a bot. [source](https://github.com/etnguyen03/IsItFridayThe13thBot) >!APRIL FOOLS!<)")
     post.mod.flair(text="No")
 else:
-    post = subreddit.submit(title="Is it April Fools Day?", selftext="No.\n---\n^(Today is " + todoString + ". The next Friday the 13th is " + str(incrementDays) + " day\(s\) away. This message was posted by a bot. [source](https://github.com/etnguyen03/IsItFridayThe13thBot))")
+    post = subreddit.submit(title="Is it April Fools Day?", selftext="No.\n---\n^(Today is " + todoString + ". The next April Fools Day is " + str(incrementDays) + " day\(s\) away. This message was posted by a bot. [source](https://github.com/etnguyen03/IsItFridayThe13thBot))")
     post.mod.flair(text="No")
