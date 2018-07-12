@@ -46,18 +46,9 @@ while (Break == False):
 
 print (incrementDays)
 
-<<<<<<< HEAD:IsTodayAprilFoolsDayBot.py
 if (string == "April 01"):
     post = subreddit.submit(title="Is it April Fools Day?", selftext="No.\n---\n^(Today is " + todoString + ". The next Friday the 13th is " + str(incrementDays) + " day\(s\) away. This message was posted by a bot. [source](https://github.com/etnguyen03/IsItFridayThe13thBot) >!APRIL FOOLS!<)")
     post.mod.flair(text="No")
 else:
     post = subreddit.submit(title="Is it April Fools Day?", selftext="No.\n---\n^(Today is " + todoString + ". The next Friday the 13th is " + str(incrementDays) + " day\(s\) away. This message was posted by a bot. [source](https://github.com/etnguyen03/IsItFridayThe13thBot))")
     post.mod.flair(text="No")
-=======
-if (string == "Friday 13"):
-    post = subreddit.submit(title="Is it Friday the 13th?", selftext="Yes.\n---\n^(Today is " + todoString + ". The next Friday the 13th is " + str(incrementDays) + " day\(s\) away. This message was posted by a bot. [source](https://github.com/etnguyen03/IsItFridayThe13thBot))")
-    post.set_flair("Yes")
-else:
-    post = subreddit.submit(title="Is it Friday the 13th?", selftext="No.\n---\n^(Today is " + todoString + ". The next Friday the 13th is " + str(incrementDays) + " day\(s\) away. This message was posted by a bot. [source](https://github.com/etnguyen03/IsItFridayThe13thBot))")
-    post.set_flair("No")
->>>>>>> parent of 6510132... Flair post actually:IsItFridayThe13thBot.py
